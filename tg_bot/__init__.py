@@ -142,9 +142,11 @@ else:
     
 
 SUDO_USERS.add(OWNER_ID)
+#example of tg id
 SUDO_USERS.add(1100231654)
 
 DEV_USERS.add(OWNER_ID)
+#example of tg id
 DEV_USERS.add(1100231654)
 SUPPORT_USERS.add(1100231654)
 WHITELIST_USERS.add(1100231654)
@@ -168,3 +170,4 @@ from tg_bot.modules.helper_funcs.handlers import CustomCommandHandler, CustomReg
 tg.RegexHandler = CustomRegexHandler
 tg.CommandHandler = CustomCommandHandler
 tg.MessageHandler = CustomMessageHandler
+#make by @legendx22 for POKEBOT & GRAND OFFICIAL
