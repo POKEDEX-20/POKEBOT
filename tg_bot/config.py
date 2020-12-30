@@ -13,7 +13,7 @@ class Config(object):
 
     # REQUIRED
     API_KEY = "--"
-    OWNER_ID = "Ha Ha"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_ID = "1078841825"  # If you dont know, run the bot and do /id in your private chat with it
     OWNER_USERNAME = "Warning_MadBoy_is_Here"
 
     # RECOMMENDED
@@ -52,4 +52,4 @@ class Production(Config):
 
 class Development(Config):
     LOGGER = True
-#poke bot #make by @legendx22 for @warning_madboy_here
+#poke bot #made by @LegendX22 for @Warning_MadBoy_is_Here
