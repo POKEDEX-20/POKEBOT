@@ -96,7 +96,7 @@ def sudo_plus(func):
         elif DEL_CMDS and " " not in update.effective_message.text:
             update.effective_message.delete()
         else:
-            update.effective_message.reply_text("Who dis non-admin telling me what to do? You want a punch?")
+            update.effective_message.reply_text("This is bot devloper command, you cannot access this! \nThank You💝💝💝💝")
 
     return is_sudo_plus_func
 
@@ -124,7 +124,7 @@ def whitelist_plus(func):
         if user and is_whitelist_plus(chat, user.id):
             return func(bot, update, *args, **kwargs)
         else:
-            update.effective_message.reply_text("You don't have access to use this.\nVisit @AnonymousD3061")
+            update.effective_message.reply_text("You don't have access to use this.\nVisit @POKE_BOT_Support")
 
     return is_whitelist_plus_func
 
@@ -142,7 +142,7 @@ def user_admin(func):
         elif DEL_CMDS and " " not in update.effective_message.text:
             update.effective_message.delete()
         else:
-            update.effective_message.reply_text("Who dis non-admin telling me what to do? You want a punch?")
+            update.effective_message.reply_text("This is bot devloper command, you cannot access this! \nThank You💝💝💝💝")
 
     return is_admin
 
@@ -185,9 +185,9 @@ def bot_admin(func):
         message_chat_title = update.effective_message.chat.title
 
         if update_chat_title == message_chat_title:
-            not_admin = "I'm not admin! - REEEEEE"
+            not_admin = "Bruh, Me not an Admin!🥺😩 - REEEEEE"
         else:
-            not_admin = f"I'm not admin in <b>{update_chat_title}</b>! - REEEEEE"
+            not_admin = f"Bruh, Me not an Admin!🥺😩 in <b>{update_chat_title}</b>! - REEEEEE"
 
         if is_bot_admin(chat, bot.id):
             return func(bot, update, *args, **kwargs)
