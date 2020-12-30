@@ -147,8 +147,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        url="https://t.me/Warning_MadBoy_is_Here")],
                                                                                    [InlineKeyboardButton(text="ADD POKE BOT TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="Source Code",
-                                                                       url="https://github.com/legendx22/GRANDROBOT")
+                                                                                   InlineKeyboardButton(text="Support channel",
+                                                                       url="https://t.me/poke_bot_support")
                                                                                  ]]))
 
     else:
