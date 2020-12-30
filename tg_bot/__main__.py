@@ -6,6 +6,8 @@ from typing import Optional, List
 from parsel import Selector
 from urllib.request import urlopen
 
+#fix from @legendx22
+
 from telegram import Message, Chat, Update, Bot, User
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.error import Unauthorized, BadRequest, TimedOut, NetworkError, ChatMigrated, TelegramError
@@ -150,7 +152,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("Yuss, I am ONline😁😁😏.")
+        update.effective_message.reply_text("YEAH I AM ALREADY ONLINE CHECK MY WORKING TIME USE /PING 😎.")
 
 
 def send_start(bot, update):
