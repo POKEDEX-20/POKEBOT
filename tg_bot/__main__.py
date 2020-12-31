@@ -6,7 +6,7 @@ from typing import Optional, List
 from parsel import Selector
 from urllib.request import urlopen
 
-#fix from @legendx22
+#Errors fixed by @LegendX22 for @Warning_MadBoy_is_Here
 
 from telegram import Message, Chat, Update, Bot, User
 from telegram import ParseMode, InlineKeyboardMarkup, InlineKeyboardButton
@@ -148,7 +148,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                    [InlineKeyboardButton(text="ADD THIS BOT TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Support channel",
-                                                                       url="https://t.me/poke_bot_support")
+                                                                       url="https://t.me/Group_ManagingBot_Support")
                                                                                  ]]))
 
     else:
