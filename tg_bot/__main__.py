@@ -147,11 +147,13 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        url="https://t.me/Warning_MadBoy_is_Here")],
                                                                                    [InlineKeyboardButton(text="ADD THIS BOT TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="Support channel",
+                                                                                   InlineKeyboardButton(text="Support Channel",
                                                                        url="https://t.me/Group_ManagingBot_Support")
-                                                                                   InlineKeyboardButton(text="Source Code",
-                                                                       url="https://github.com/POKEDEX-20/Group-Management-Bot")
-                                                                                 ]]))
+                                                                                    InlineKeyboardButton(text="Source Code",
+                                                                      
+url="https://github.com/POKEDEX-20/Group-Management-Bot")
+                                                                                   ]]))
+                                                                                 
     
     else:
         update.effective_message.reply_text("YUSS, I AM ONLINE😌😉; CHECK MY WORKING TIME USE /PING 😎.")
