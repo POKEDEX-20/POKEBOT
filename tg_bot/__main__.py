@@ -29,7 +29,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 **Hello {}, My Name is {}!** 
-I am an **SUPERB**  Group Management Bot.
+I am a **SUPERB** Group Management Bot.
 You can find the list of available commands with /help.
 
 """
@@ -39,9 +39,9 @@ HELP_STRINGS = """
 Hello! my name *{}*.
 
 *Main* commands available:
- - /start: s tart the bot
- - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
+ - /start: Start Romeo!😉
+ - /help: Check your PM from Romeo for this command.👀
+ - /help <module name>: PM's you info about that module.👀
  - /settings:
    - in PM: will send you your settings for all supported modules.
    - in a group: will redirect you to pm, with all that chat's settings.
@@ -145,15 +145,15 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
                                                                        url="https://t.me/Warning_MadBoy_is_Here")],
-                                                                                   [InlineKeyboardButton(text="ADD THIS BOT TO YOUR GROUP",
+                                                                                   [InlineKeyboardButton(text="ADD Romeo TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Source Code",
-                                                                       url="https://github.com/POKEDEX-20/Group-Management-Bot")
+                                                                       url="https://github.com/POKEDEX-20/Romeo")
                                                                                    ]]))
                                                                                  
     
     else:
-        update.effective_message.reply_text("YUSS, I AM ONLINE😌😉; Check my Working Time, Use /Ping 😎. \n\nJoin @Group_ManagingBot_Support 😇.")
+        update.effective_message.reply_text("YUSS, I AM ONLINE😌😉; Check my Working Time, Use /ping 😎. \n\nJoin @Romeo1Bot_Support 😇.")
 
 
 def send_start(bot, update):
