@@ -51,7 +51,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/30dff54fe5b8d0c28d4fa.jpg"
+TECHNO_IMG = "https://telegra.ph/file/c0895431a51ec47c04082.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -145,7 +145,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
                                                                        url="https://t.me/Warning_MadBoy_is_Here")],
-                                                                                   [InlineKeyboardButton(text="ADD POKE BOT TO YOUR GROUP",
+                                                                                   [InlineKeyboardButton(text="ADD THIS BOT TO YOUR GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Support channel",
                                                                        url="https://t.me/poke_bot_support")
