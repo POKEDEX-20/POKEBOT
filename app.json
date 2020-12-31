@@ -37,16 +37,16 @@
       },
       "OWNER_NAME": {
          "description": "Your username",
-         "value": "LEGENDX22"
+         "value": "Warning_MadBoy_is_Here"
       },
       "DEV_USERS": {
          "description": "ID of users who are Dev (can use /py etc.)",
          "required": false,
          "value": "1100231654"
       },
-"GRAND_IMG": {
+"START_IMG": {
          "description": "Image shows when hit /start",
-         "value": "https://telegra.ph/file/30dff54fe5b8d0c28d4fa.jpg"    
+         "value": "https://telegra.ph/file/10174913fb43379ec8f1a.jpg"    
       },
       "GBAN_LOGS": {
          "description": "Gban log channel, include the hyphen too: ex: -123456",
@@ -114,7 +114,7 @@
       "manager",
       "bot"
    ],
-   "logo": "https://telegra.ph/file/30dff54fe5b8d0c28d4fa.jpg",
-   "name": "POKE BOT",
-   "repository": "https://github.com/pokedex-20/pokebot"
+   "logo": "https://telegra.ph/file/10174913fb43379ec8f1a.jpg",
+   "name": "Group Management Bot",
+   "repository": "https://github.com/pokedex-20/Group-Management-Bot"
 }
