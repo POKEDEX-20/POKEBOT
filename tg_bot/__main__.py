@@ -39,7 +39,7 @@ HELP_STRINGS = """
 Hello! my name *{}*.
 
 *Main* commands available:
- - /start: start the bot
+ - /start: s tart the bot
  - /help: PM's you this message.
  - /help <module name>: PM's you info about that module.
  - /settings:
@@ -150,7 +150,9 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                    InlineKeyboardButton(text="Support channel",
                                                                        url="https://t.me/Group_ManagingBot_Support")
                                                                                  ]]))
-
+                                                                                   InlineKeyboardButton(text="Source Code",
+                                                                       url="https://github.com/POKEDEX-20/Group-Management-Bot")
+    
     else:
         update.effective_message.reply_text("YUSS, I AM ONLINE😌😉; CHECK MY WORKING TIME USE /PING 😎.")
 
