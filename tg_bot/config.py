@@ -19,7 +19,7 @@ class Config(object):
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
     MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
-    GBAN_LOGS = -1001213103256 #Channel ID here with -
+    GBAN_LOGS = -1001355817633 #Channel ID here with -
     LOAD = []
     NO_LOAD = ['translation', 'rss']   
     WEBHOOK = False
@@ -52,4 +52,4 @@ class Production(Config):
 
 class Development(Config):
     LOGGER = True
-#poke bot #made by @LegendX22 for @Warning_MadBoy_is_Here
+#Group Management Bot #Code Help done by @LegendX22 for @Warning_MadBoy_is_Here
