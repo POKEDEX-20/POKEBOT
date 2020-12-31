@@ -29,7 +29,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 **Hello {}, My Name is {}!** 
-I am an **SUPERB**  group management bot.
+I am an **SUPERB**  Group Management Bot.
 You can find the list of available commands with /help.
 
 """
@@ -152,7 +152,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                                  ]]))
 
     else:
-        update.effective_message.reply_text("YEAH I AM ALREADY ONLINE CHECK MY WORKING TIME USE /PING 😎.")
+        update.effective_message.reply_text("YUSS, I AM ONLINE😌😉; CHECK MY WORKING TIME USE /PING 😎.")
 
 
 def send_start(bot, update):
@@ -251,7 +251,7 @@ def get_help(bot: Bot, update: Update):
     # ONLY send help in PM
     if chat.type != chat.PRIVATE:
 
-        update.effective_message.reply_text("Contact me in PM (Private Message) to get the help.",
+        update.effective_message.reply_text("Contact me in PM (Private Message) to get the help 👀.",
                                             reply_markup=InlineKeyboardMarkup(
                                                 [[InlineKeyboardButton(text="HELP",
                                                                        url="t.me/{}?start=help".format(
