@@ -140,36 +140,16 @@ def start(bot: Bot, update: Update, args: List[str]):
             first_name = update.effective_user.first_name
             update.effective_message.reply_photo(
                TECHNO_IMG,
-               PM_START_TEXT.format(
-                    escape_markdown(first_name),
-                    escape_markdown(context.bot.first_name)),
-                parse_mode=ParseMode.MARKDOWN,
-                disable_web_page_preview=True,
-                reply_markup=InlineKeyboardMarkup(
-                    [[
-                        InlineKeyboardButton(
-                            text="☑️ Add Romeo to your group",
-                            url="t.me/{}?startgroup=true".format(
-                                context.bot.username))
-                    ],
-                     [
-                         InlineKeyboardButton(
-                             text="🧑‍💻Developer🧑‍💻",
-                             url=f"https://t.me/Warning_MadBoy_is_Here"),
-                         InlineKeyboardButton(
-                             text="🔔 Support Channel",
-                             url="https://t.me/Romeo1Bot_Support")
-                     ],
-                     [
-                         InlineKeyboardButton(
-                             text="🤝HELP🤝",
-                             callback_data="help_back".format(bot.username)
-                     )],
-                     [
-                         InlineKeyboardButton(
-                             text="🗄 Source code",
-                             url="https://github.com/POKEDEX-20/Romeo")
-                          ]])
+                PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
+                                                                       callback_data="help_back".format(bot.username)),
+                                                                                   InlineKeyboardButton(text="🧑‍💻Developer🧑‍💻",
+                                                                       url="https://t.me/Warning_MadBoy_is_Here")],
+                                                                                   [InlineKeyboardButton(text="☑️ ADD Romeo TO YOUR GROUP",
+                                                                       url="t.me/{}?startgroup=true".format(bot.username)),
+                                                                                   InlineKeyboardButton(text="🗄 Source Code",
+                                                                       url="https://github.com/POKEDEX-20/Romeo")
+                                                                                 ]]))
    
     else:
                                                                                  
