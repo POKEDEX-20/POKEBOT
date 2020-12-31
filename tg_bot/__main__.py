@@ -164,12 +164,12 @@ def start(bot: Bot, update: Update, args: List[str]):
                          InlineKeyboardButton(
                              text="🤝HELP🤝",
                              callback_data="help_back".format(bot.username)
-                     ],
+                     )],
                      [
                          InlineKeyboardButton(
                              text="🗄 Source code",
                              url="https://github.com/POKEDEX-20/Romeo")
-                          ]]))
+                          ]])
    
     else:
                                                                                  
