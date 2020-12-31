@@ -170,4 +170,5 @@ from tg_bot.modules.helper_funcs.handlers import CustomCommandHandler, CustomReg
 tg.RegexHandler = CustomRegexHandler
 tg.CommandHandler = CustomCommandHandler
 tg.MessageHandler = CustomMessageHandler
-#make by @legendx22 for POKEBOT & GRAND OFFICIAL
+
+#Group Management Bot #Code Help given by @LegendX22 for @Warning_MadBoy_is_Here
